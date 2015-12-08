@@ -1,0 +1,9 @@
+
+2015-12-08 15:17:50 INFO  file:23 - Bus 1 created
+2015-12-08 15:17:50 INFO  file:25 - Bus 2 created
+2015-12-08 15:17:50 INFO  file:27 - Auto 1 created
+2015-12-08 15:17:50 INFO  file:29 - Auto 2 created
+2015-12-08 15:17:50 INFO  file:31 - Plain 1 created
+2015-12-08 15:17:50 INFO  file:33 - Plain 2 created
+2015-12-08 15:17:50 INFO  file:43 - All transport added into ArrayList
+2015-12-08 15:17:56 INFO  file:47 - All transport list.xml created

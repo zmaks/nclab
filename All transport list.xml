@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TransportList
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="transport schema.xsd">
+  <Transport Name="Bus">
+    <TransportName>Bus 1</TransportName>
+    <Speed>200</Speed>
+    <OneMileCost>8</OneMileCost>
+  </Transport>
+  <Transport Name="Bus">
+    <TransportName>Bus 2</TransportName>
+    <Speed>120</Speed>
+    <OneMileCost>3</OneMileCost>
+  </Transport>
+  <Transport Name="Automobile">
+    <TransportName>Auto 1</TransportName>
+    <Speed>240</Speed>
+  </Transport>
+  <Transport Name="Automobile">
+    <TransportName>Auto 2</TransportName>
+    <Speed>200</Speed>
+  </Transport>
+  <Transport Name="Plain">
+    <TransportName>Plain 1</TransportName>
+    <Speed>700</Speed>
+    <OneMileCost>40</OneMileCost>
+    <FlightHeight>6000</FlightHeight>
+  </Transport>
+  <Transport Name="Plain">
+    <TransportName>Plain 2</TransportName>
+    <Speed>500</Speed>
+    <OneMileCost>30</OneMileCost>
+    <FlightHeight>4000</FlightHeight>
+  </Transport>
+</TransportList>
+
