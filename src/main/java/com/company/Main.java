@@ -43,9 +43,9 @@ public class Main {
         logger.info("All transport added into ArrayList");
 
         for(Transport i : transports){
-            System.out.println(i.getName());
-            System.out.println(i.information(20));
-            if(i instanceof AirTransport) System.out.println("Flight height is "+((AirTransport) i).getFlightHeight());
+            logger.info(i.getName());
+            logger.info(i.information(20));
+            if(i instanceof AirTransport) logger.info("Flight height is "+((AirTransport) i).getFlightHeight());
         }
 
         //Create XML

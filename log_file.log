@@ -7,3 +7,59 @@
 2015-12-08 15:17:50 INFO  file:33 - Plain 2 created
 2015-12-08 15:17:50 INFO  file:43 - All transport added into ArrayList
 2015-12-08 15:17:56 INFO  file:47 - All transport list.xml created
+2015-12-10 12:49:35 INFO  file:23 - Bus 1 created
+2015-12-10 12:49:35 INFO  file:25 - Bus 2 created
+2015-12-10 12:49:35 INFO  file:27 - Auto 1 created
+2015-12-10 12:49:35 INFO  file:29 - Auto 2 created
+2015-12-10 12:49:35 INFO  file:31 - Plain 1 created
+2015-12-10 12:49:35 INFO  file:33 - Plain 2 created
+2015-12-10 12:49:35 INFO  file:43 - All transport added into ArrayList
+2015-12-10 12:50:33 INFO  file:23 - Bus 1 created
+2015-12-10 12:50:33 INFO  file:25 - Bus 2 created
+2015-12-10 12:50:33 INFO  file:27 - Auto 1 created
+2015-12-10 12:50:33 INFO  file:29 - Auto 2 created
+2015-12-10 12:50:33 INFO  file:31 - Plain 1 created
+2015-12-10 12:50:33 INFO  file:33 - Plain 2 created
+2015-12-10 12:50:33 INFO  file:43 - All transport added into ArrayList
+2015-12-10 12:54:14 INFO  file:23 - Bus 1 created
+2015-12-10 12:54:14 INFO  file:25 - Bus 2 created
+2015-12-10 12:54:14 INFO  file:27 - Auto 1 created
+2015-12-10 12:54:14 INFO  file:29 - Auto 2 created
+2015-12-10 12:54:14 INFO  file:31 - Plain 1 created
+2015-12-10 12:54:14 INFO  file:33 - Plain 2 created
+2015-12-10 12:54:14 INFO  file:43 - All transport added into ArrayList
+2015-12-10 12:54:14 INFO  file:46 - Bus 1
+2015-12-10 12:54:14 INFO  file:47 - You can drive 20 km in 0.1 minutes by BUS and it will be cost 160 $!
+2015-12-10 12:54:14 INFO  file:46 - Bus 2
+2015-12-10 12:54:14 INFO  file:47 - You can drive 20 km in 0.16666667 minutes by BUS and it will be cost 60 $!
+2015-12-10 12:54:14 INFO  file:46 - Auto 1
+2015-12-10 12:54:14 INFO  file:47 - You can drive 20 km in 0.083333336 minutes by AUTO
+2015-12-10 12:54:14 INFO  file:46 - Auto 2
+2015-12-10 12:54:14 INFO  file:47 - You can drive 20 km in 0.1 minutes by AUTO
+2015-12-10 12:54:14 INFO  file:46 - Plain 1
+2015-12-10 12:54:14 INFO  file:47 - You can drive 20 km in 0.04857143 minutes by PLAIN and it will be cost 800 $!
+2015-12-10 12:54:14 INFO  file:48 - Flight height is 6000
+2015-12-10 12:54:14 INFO  file:46 - Plain 2
+2015-12-10 12:54:14 INFO  file:47 - You can drive 20 km in 0.068 minutes by PLAIN and it will be cost 600 $!
+2015-12-10 12:54:14 INFO  file:48 - Flight height is 4000
+2015-12-10 13:53:48 INFO  file:23 - Bus 1 created
+2015-12-10 13:53:48 INFO  file:25 - Bus 2 created
+2015-12-10 13:53:48 INFO  file:27 - Auto 1 created
+2015-12-10 13:53:48 INFO  file:29 - Auto 2 created
+2015-12-10 13:53:48 INFO  file:31 - Plain 1 created
+2015-12-10 13:53:48 INFO  file:33 - Plain 2 created
+2015-12-10 13:53:48 INFO  file:43 - All transport added into ArrayList
+2015-12-10 13:53:48 INFO  file:46 - Bus 1
+2015-12-10 13:53:48 INFO  file:47 - You can drive 20 km in 0.1 minutes by BUS and it will be cost 160 $!
+2015-12-10 13:53:48 INFO  file:46 - Bus 2
+2015-12-10 13:53:48 INFO  file:47 - You can drive 20 km in 0.16666667 minutes by BUS and it will be cost 60 $!
+2015-12-10 13:53:48 INFO  file:46 - Auto 1
+2015-12-10 13:53:48 INFO  file:47 - You can drive 20 km in 0.083333336 minutes by AUTO
+2015-12-10 13:53:48 INFO  file:46 - Auto 2
+2015-12-10 13:53:48 INFO  file:47 - You can drive 20 km in 0.1 minutes by AUTO
+2015-12-10 13:53:48 INFO  file:46 - Plain 1
+2015-12-10 13:53:48 INFO  file:47 - You can drive 20 km in 0.04857143 minutes by PLAIN and it will be cost 800 $!
+2015-12-10 13:53:48 INFO  file:48 - Flight height is 6000
+2015-12-10 13:53:48 INFO  file:46 - Plain 2
+2015-12-10 13:53:48 INFO  file:47 - You can drive 20 km in 0.068 minutes by PLAIN and it will be cost 600 $!
+2015-12-10 13:53:48 INFO  file:48 - Flight height is 4000
