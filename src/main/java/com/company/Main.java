@@ -48,35 +48,33 @@ public class Main {
             if(i instanceof AirTransport) logger.info("Flight height is "+((AirTransport) i).getFlightHeight());
         }
 
-        //Create XML
-        Scanner in = new Scanner(System.in);
-        System.out.println("Create XML? (Y/N)");
-        if(in.next().equals("Y")) XML.createXML(transports);
+        try {
+            //Create XML
+            Scanner in = new Scanner(System.in);
+            System.out.println("Create XML? (Y/N)");
+            if(in.next().equals("Y")) XML.createXML(transports);
 
-        //Parse XML
-        System.out.println("Parse XML? (Y/N)");
-        if(in.next().equals("Y")) XML.parseXML("All transport listt.xml");
+            //Parse XML
+            System.out.println("Parse XML? (Y/N)");
+            if(in.next().equals("Y")) XML.parseXML("All transport list.xml");
 
-        //XPath
-        System.out.println("Run xPath? (Y/N)");
-        if(in.next().equals("Y")){
-            System.out.println("Write transport name:");
-            String name =in.next();
-            try {
-                XPathTest.XPathGetSpeed("All transport list.xml");
-            } catch (ParserConfigurationException e) {
-                logger.error(e.getMessage());
-            } catch (SAXException e) {
-                logger.error(e.getMessage());
-            } catch (IOException e) {
-                logger.error(e.getMessage());
-            } catch (XPathExpressionException e) {
-                logger.error(e.getMessage());
-            } catch (JDOMException e) {
-                logger.error(e.getMessage());
+            //XPath
+            System.out.println("Run xPath? (Y/N)");
+            if(in.next().equals("Y")){
+                String name =in.next();
             }
+            XPathTest.XPathGetSpeed("All transport list.xml");
+        } catch (ParserConfigurationException e) {
+            logger.error(e.getMessage());
+        } catch (SAXException e) {
+            logger.error(e.getMessage());
+        } catch (IOException e) {
+            logger.error(e.getMessage());
+        } catch (XPathExpressionException e) {
+            logger.error(e.getMessage());
+        } catch (JDOMException e) {
+            logger.error(e.getMessage());
         }
-        in.close();
     }
 
 
