@@ -22,6 +22,7 @@ public class XML {
 
     private static final Logger logger = Logger.getLogger("file");
 
+
     public static void createXML(ArrayList<Transport> transports) {
         try {
             Element root = new Element("TransportList");
@@ -45,11 +46,10 @@ public class XML {
 
             outputter.output(doc, new FileOutputStream("All transport list create.xml"));
             logger.info("All transport list.xml created");
-            System.out.println("All transport list.xml created");
         } catch (IOException io) {
-            logger.error("XML-file didn't create: "+io.getMessage());
+            logger.error(io.getMessage());
         } catch (IllegalNameException e) {
-            logger.error("XML-file didn't crate: "+e.getMessage());
+            logger.error(e.getMessage());
         }
     }
 
@@ -61,23 +61,24 @@ public class XML {
             Document doc = (Document) builder.build(xmlFile);
             Element root = doc.getRootElement();
             List transport = root.getChildren("Transport");
-            System.out.println("Transport List:\n");
+            logger.info("Parse XML:");
+            logger.info("Transport List:");
             for (int i = 0; i < transport.size(); i++) {
                 Element figure = (Element) transport.get(i);
-                System.out.println("Type: " + figure.getAttributeValue("Name"));
-                System.out.println("Name: " + figure.getChildText("TransportName"));
-                System.out.println("Speed: " + figure.getChildText("Speed"));
+                logger.info("Type: " + figure.getAttributeValue("Name"));
+                logger.info("Name: " + figure.getChildText("TransportName"));
+                logger.info("Speed: " + figure.getChildText("Speed"));
                 if (figure.getAttributeValue("Name").equals("Bus")) {
-                    System.out.println("One mile cost: " + figure.getChildText("OneMileCost"));
+                    logger.info("One mile cost: " + figure.getChildText("OneMileCost"));
                 }
                 if (figure.getAttributeValue("Name").equals("Plane")) {
-                    System.out.println("Flight Height: " + figure.getChildText("FlightHeight"));
+                    logger.info("Flight Height: " + figure.getChildText("FlightHeight"));
                 }
             }
         } catch (IOException io) {
-            logger.error("Cannot load file: " + io.getMessage());
+            logger.error(io.getMessage());
         } catch (JDOMException e) {
-            logger.error("Cannot parse file: " + e.getMessage());
+            logger.error(e.getMessage());
         }
     }
 }

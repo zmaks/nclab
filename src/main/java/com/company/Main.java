@@ -55,7 +55,7 @@ public class Main {
 
         //Parse XML
         System.out.println("Parse XML? (Y/N)");
-        if(in.next().equals("Y")) XML.parseXML("All transport list.xml");
+        if(in.next().equals("Y")) XML.parseXML("All transport listt.xml");
 
         //XPath
         System.out.println("Run xPath? (Y/N)");
@@ -65,15 +65,15 @@ public class Main {
             try {
                 XPathTest.XPathGetSpeed("All transport list.xml");
             } catch (ParserConfigurationException e) {
-                e.printStackTrace();
+                logger.error(e.getMessage());
             } catch (SAXException e) {
-                e.printStackTrace();
+                logger.error(e.getMessage());
             } catch (IOException e) {
-                e.printStackTrace();
+                logger.error(e.getMessage());
             } catch (XPathExpressionException e) {
-                e.printStackTrace();
+                logger.error(e.getMessage());
             } catch (JDOMException e) {
-                e.printStackTrace();
+                logger.error(e.getMessage());
             }
         }
         in.close();
