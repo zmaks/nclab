@@ -20,7 +20,7 @@ import org.jdom.output.XMLOutputter;
  */
 public class XML {
 
-    private static final Logger logger = Logger.getLogger("file");
+    private static final Logger logger = Logger.getLogger(XML.class.getName());
 
 
     public static void createXML(ArrayList<Transport> transports) {

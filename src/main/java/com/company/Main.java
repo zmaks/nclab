@@ -15,7 +15,7 @@ import java.util.Scanner;
  */
 public class Main {
 
-    public static final Logger logger = Logger.getLogger("file");
+    public static final Logger logger = Logger.getLogger(Main.class.getName());
 
     public static void main(String[] args) {
 
